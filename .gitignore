@@ -1,0 +1,4 @@
+build
+dist
+netbox_django_sql_explorer.egg-info
+__pycache__

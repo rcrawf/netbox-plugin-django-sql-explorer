@@ -1,0 +1,11 @@
+{% extends "explorer/base.html" %}
+{% block sql_explorer_footer %} 
+    <div class="container">
+        <footer class="py-3 my-4">
+            <p class="text-center text-body-secondary border-top pt-3">
+                Powered by <a href="https://www.sqlexplorer.io/">SQL Explorer</a>. Rendered at {% now "SHORT_DATETIME_FORMAT" %}
+		<br><br><a style="text-decoration: none;" href="/">← Back to NetBox &nbsp;<img style="height: 20px;" src="/static/netbox.ico"/></a>
+            </p>
+        </footer>
+    </div>
+{% endblock %}
